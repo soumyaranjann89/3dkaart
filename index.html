@@ -299,13 +299,14 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:5rem 6v
     3D<em>Kaart</em>
   </a>
   <ul class="nav-links">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#process">Process</a></li>
-    <li><a href="#shop">Shop</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#process">Process</a></li>
+    <li><a href="index.html#shop">Shop</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="booking.html" style="color:var(--cyan);font-weight:700">Book Now</a></li>
   </ul>
-  <button class="btn-nav" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a Quote</button>
+  <button class="btn-nav" onclick="window.location.href='booking.html'">📅 Book Now</button>
 </nav>
 
 <!-- HERO -->
@@ -661,6 +662,37 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:5rem 6v
 <hr class="divider">
 
 <!-- CONTACT -->
+
+<!-- MAP -->
+<section class="map-section rev">
+  <div class="eyebrow" style="padding:60px 0 1.2rem;display:flex;align-items:center;gap:10px;"><span style="width:18px;height:1px;background:var(--cyan);display:inline-block;"></span>Find Us</div>
+  <div class="sh" style="margin-bottom:1.8rem;">Visit Our <em>Studio</em></div>
+  <div class="map-wrap">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.4592438642!2d85.76766707550468!3d20.29609568073486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a9a7bca088f9%3A0xafffa8f606a50f91!2s3DKaart%203D%20Printing!5e0!3m2!1sen!2sin!4v1748500000000!5m2!1sen!2sin"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="3DKaart 3D Printing - Plot No-31 NH-5 Dasbatia Tamando Bhubaneswar">
+    </iframe>
+    <div class="map-overlay-bar">
+      <div class="map-address">
+        <span class="map-address-icon">📍</span>
+        <div>
+          <strong>3DKaart 3D Printing Studio</strong>
+          Plot No-31 NH-5, Dasbatia, Tamando, Badaraghunathpur, Bhubaneswar, Odisha 751028
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=3DKaart+3D+Printing,+Tamando,+Bhubaneswar,+Odisha+751028" target="_blank" class="btn-directions">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+        Get Directions
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
 <section id="contact">
   <div class="eyebrow rev">Get In Touch</div>
   <div class="sh rev">Start Your <em>Project</em></div>
